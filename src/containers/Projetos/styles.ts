@@ -2,13 +2,11 @@ import styled from 'styled-components'
 
 export const Lista = styled.ul`
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 36px;
-  row-gap: 40px;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    column-gap: 0;
-    row-gap: 16px;
+    gap: 16px;
   }
 `

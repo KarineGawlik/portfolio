@@ -14,10 +14,16 @@ const Sidebar = (props: Props) => (
       <Avatar />
       <Titulo fontSize={20}>Karine Gawlik</Titulo>
       <Paragrafo tipo="secundario" fontSize={16}>
-        karinegawlik
+        <a
+          href="https://github.com/KarineGawlik"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @karinegawlik
+        </a>
       </Paragrafo>
       <Descricao tipo="principal" fontSize={12}>
-        Desenvolvedora Full Stack
+        Estudante de Análise e Desenvolvimento de Sistemas
       </Descricao>
       <BotaoTema onClick={props.trocaTema}>Trocar Tema</BotaoTema>
     </SidebarContainer>

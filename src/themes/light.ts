@@ -2,7 +2,7 @@ const temaLight = {
   corPrincipal: '#000',
   corSecundaria: '#949494',
   corDeFundo: '#fff',
-  corDeFundoBotao: '#4476bf',
+  corDeFundoBotao: '#FA8072',
   corDaBorda: '#c1c1c1'
 }
 

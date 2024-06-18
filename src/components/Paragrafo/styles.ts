@@ -9,4 +9,13 @@ export const P = styled.p<Props>`
       ? props.theme.corPrincipal
       : props.theme.corSecundaria};
   line-heigth: 22px;
+  margin-bottom: 10px;
+
+  a {
+    text-decoration: none;
+    color: ${(props) =>
+      props.tipo === 'principal'
+        ? props.theme.corPrincipal
+        : props.theme.corSecundaria};
+  }
 `

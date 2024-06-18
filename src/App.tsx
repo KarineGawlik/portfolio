@@ -21,8 +21,8 @@ function App() {
       <Container>
         <Sidebar trocaTema={trocaTema} />
         <main>
-          <Sobre />
           <Projetos />
+          <Sobre />
         </main>
       </Container>
     </ThemeProvider>
