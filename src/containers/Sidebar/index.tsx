@@ -23,7 +23,7 @@ const Sidebar = (props: Props) => (
         </a>
       </Paragrafo>
       <Descricao tipo="principal" fontSize={12}>
-        Estudante de Análise e Desenvolvimento de Sistemas
+        Desenvolvedora FrontEnd
       </Descricao>
       <BotaoTema onClick={props.trocaTema}>Trocar Tema</BotaoTema>
     </SidebarContainer>

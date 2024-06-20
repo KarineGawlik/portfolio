@@ -8,10 +8,12 @@ import aniversario from '../../imagens/aniversario.png'
 import filmandoAVida from '../../imagens/filmandoAVida.png'
 import games from '../../imagens/games.png'
 import calculadora from '../../imagens/calculadoraMedias.png'
-import galeria from '../../imagens/galeriaFotos.png'
 import sorteador from '../../imagens/sorteador.png'
 import lista from '../../imagens/toDo.png'
 import contatos from '../../imagens/contatos.png'
+import motors from '../../imagens/motors.png'
+import restaurante from '../../imagens/restaurante.png'
+
 import { Lista } from '../../containers/Projetos/styles'
 import { Container } from '../../styles'
 
@@ -26,12 +28,17 @@ const Projetos = () => (
     <Lista>
       <Projeto
         imagem={disneyPlus}
-        titulo="Clone Disney Plus"
+        titulo="Projeto de Estudo Clone Disney"
         link="https://clone-disneyplus-karine.vercel.app/"
       />
       <Projeto
+        imagem={restaurante}
+        titulo="Restaurante"
+        link="https://restaurante-red.vercel.app/"
+      />
+      <Projeto
         imagem={labImpressoes}
-        titulo="Landing Page Empresa LabImpressoes"
+        titulo="LabImpressoes"
         link="https://site-grafica.vercel.app/"
       />
       <Projeto
@@ -65,11 +72,6 @@ const Projetos = () => (
         link="https://karine-projeto-calculadora-medias.vercel.app/"
       />
       <Projeto
-        imagem={galeria}
-        titulo="Galeria de Fotos"
-        link="https://jquery-galeria-fotos-mauve.vercel.app/"
-      />
-      <Projeto
         imagem={sorteador}
         titulo="Sorteador"
         link="https://sorteadorgruntkarine.vercel.app/"
@@ -83,6 +85,11 @@ const Projetos = () => (
         imagem={contatos}
         titulo="Lista de Contatos"
         link="https://lista-de-contatos-one.vercel.app/"
+      />
+      <Projeto
+        imagem={motors}
+        titulo="EBAC Motors"
+        link="https://ebac-motors-psi.vercel.app/"
       />
     </Lista>
   </Container>

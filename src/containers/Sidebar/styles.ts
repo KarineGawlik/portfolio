@@ -18,6 +18,13 @@ export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+  background-image: url('../../imagens/fundo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
 
   @media (max-width: 768px) {
     margin-bottom: 40px;
