@@ -64,7 +64,7 @@ const Projetos = () => (
       <Projeto
         imagem={filmandoAVida}
         titulo="Website Empresa FilmandoAVida"
-        link="https://bootstrap-producao-audiovisual.vercel.app/"
+        link="https://filmandoavida.vercel.app/"
       />
       <Projeto
         imagem={calculadora}
