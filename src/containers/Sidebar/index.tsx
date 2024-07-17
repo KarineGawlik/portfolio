@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Avatar from '../../components/Avatar'
 import Paragrafo from '../../components/Paragrafo'
 import Titulo from '../../components/Titulo'

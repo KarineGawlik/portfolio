@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Titulo from '../../components/Titulo'
 import Paragrafo from '../../components/Paragrafo'
 

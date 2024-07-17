@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Titulo from '../Titulo'
 import { Card, LinkBotao, ImagemProjeto } from './styles'
 import disneyPlus from '../../imagens/disneyPlus.png'
@@ -32,6 +34,11 @@ const Projetos = () => (
         link="https://clone-disneyplus-karine.vercel.app/"
       />
       <Projeto
+        imagem={filmandoAVida}
+        titulo="Website Empresa FilmandoAVida"
+        link="https://filmandoavida.vercel.app/"
+      />
+      <Projeto
         imagem={restaurante}
         titulo="Restaurante"
         link="https://restaurante-red.vercel.app/"
@@ -60,11 +67,6 @@ const Projetos = () => (
         imagem={aniversario}
         titulo="Landing Page Evento Aniversário"
         link="https://landing-page-aniversario-c18b.vercel.app/"
-      />
-      <Projeto
-        imagem={filmandoAVida}
-        titulo="Website Empresa FilmandoAVida"
-        link="https://filmandoavida.vercel.app/"
       />
       <Projeto
         imagem={calculadora}

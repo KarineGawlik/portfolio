@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { ReactNode } from 'react'
 import { P } from './styles'
 

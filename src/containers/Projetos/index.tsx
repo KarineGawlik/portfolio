@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Projeto from '../../components/Projetos'
 import Titulo from '../../components/Titulo'
 

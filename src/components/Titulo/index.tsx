@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Titulo as TituloEstilo } from './styles'
 
 export type Props = {
