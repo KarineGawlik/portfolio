@@ -16,6 +16,7 @@ export const LinkBotao = styled.a`
   border-radius: 4px;
   padding: 8px;
   display: inline-block;
+  margin-left: 10px;
 `
 
 export const ImagemProjeto = styled.img`

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Titulo from '../../components/Titulo'
 import Paragrafo from '../../components/Paragrafo'
+import { Column, ContactContainer } from './styles';
 
 const Sobre = () => (
   <section>
@@ -65,12 +66,23 @@ const Sobre = () => (
     <br />
     <br />
     <Titulo fontSize={16}>Entre em contato</Titulo>
-    <Paragrafo tipo="secundario">
-      E-mail: gwl.karine@gmail.com
-      <br />
-      Tel.: (41) 98720-5106
-      <br />
-    </Paragrafo>
+    <ContactContainer>
+      <Column>
+        <Paragrafo>
+          <a href='gwl.karine@gmail.com'>gwl.karine@gmail.com</a>
+          </Paragrafo>
+      </Column>
+      <Column>
+        <Paragrafo>
+          <a href='https://wa.me/5541987205106'>Tel.: (41) 98720-5106</a>
+        </Paragrafo>
+      </Column>
+      <Column>
+        <Paragrafo>
+          <a href='https://www.linkedin.com/in/karine-gawlik-224939172/'>Linkedin</a>
+        </Paragrafo>
+      </Column>
+    </ContactContainer>
   </section>
 )
 
