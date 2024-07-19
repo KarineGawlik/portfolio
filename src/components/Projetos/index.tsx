@@ -50,8 +50,8 @@ const Projetos = () => (
       <Projeto
         imagem={labImpressoes}
         titulo="LabImpressoes"
-        link="https://site-grafica.vercel.app/"
-        githubLink="https://github.com/KarineGawlik/site_grafica/tree/main"
+        link="https://lab-impressoes.vercel.app/"
+        githubLink="https://github.com/KarineGawlik/LabImpressoes"
       />
       <Projeto
         imagem={lucilleAquitetura}
