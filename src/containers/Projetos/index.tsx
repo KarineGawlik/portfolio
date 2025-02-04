@@ -7,7 +7,7 @@ import { Lista } from './styles'
 
 const Projetos = () => (
   <section>
-    <Titulo fontSize={16}>Conheça meus trabalhos</Titulo>
+    <Titulo fontSize={16}>Conheça meus projetos</Titulo>
     <Lista>
       <Projeto />
     </Lista>
