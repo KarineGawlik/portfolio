@@ -8,7 +8,7 @@ import lucilleAquitetura from '../../imagens/lucilleAquitetura.png'
 import tech from '../../imagens/tech.png'
 import aniversario from '../../imagens/aniversario.png'
 import filmandoAVida from '../../imagens/filmandoAVida.png'
-import games from '../../imagens/games.png'
+import croche from '../../imagens/croche.png'
 import calculadora from '../../imagens/calculadoraMedias.png'
 import sorteador from '../../imagens/sorteador.png'
 import lista from '../../imagens/toDo.png'
@@ -52,7 +52,7 @@ const Projetos = () => (
         titulo="LabImpressoes"
         link="https://lab-impressoes.vercel.app/"
         githubLink="https://github.com/KarineGawlik/LabImpressoes"
-      />  
+      />
       <Projeto
         imagem={lucilleAquitetura}
         titulo="Lucille Arquitetura"
@@ -60,10 +60,10 @@ const Projetos = () => (
         githubLink="https://github.com/KarineGawlik/lucille-arquitetura"
       />
       <Projeto
-        imagem={games}
-        titulo="GamesShop"
-        link="https://site-gamesshop-seven-cyan.vercel.app/"
-        githubLink="https://github.com/KarineGawlik/site_gamesshop"
+        imagem={croche}
+        titulo="Crochê Shop"
+        link="https://site-croche-shop.vercel.app/"
+        githubLink="https://github.com/KarineGawlik/site_croche_shop"
       />
       <Projeto
         imagem={tech}
