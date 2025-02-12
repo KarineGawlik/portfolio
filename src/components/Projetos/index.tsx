@@ -12,7 +12,6 @@ import croche from '../../imagens/croche.png'
 import calculadora from '../../imagens/calculadoraMedias.png'
 import sorteador from '../../imagens/sorteador.png'
 import lista from '../../imagens/toDo.png'
-import contatos from '../../imagens/contatos.png'
 import motors from '../../imagens/motors.png'
 import restaurante from '../../imagens/restaurante.png'
 
@@ -80,8 +79,8 @@ const Projetos = () => (
       <Projeto
         imagem={calculadora}
         titulo="Calculadora de médias"
-        link="https://karine-projeto-calculadora-medias.vercel.app/"
-        githubLink="https://github.com/KarineGawlik/calculadora-com-vue"
+        link="https://avaliador-de-notas.vercel.app/"
+        githubLink="https://github.com/KarineGawlik/avaliadorDeNotas"
       />
       <Projeto
         imagem={sorteador}
@@ -94,12 +93,6 @@ const Projetos = () => (
         titulo="Lista de Tarefas"
         link="https://todo-vue-chi-cyan.vercel.app/"
         githubLink="https://github.com/KarineGawlik/minhas-tarefas"
-      />
-      <Projeto
-        imagem={contatos}
-        titulo="Lista de Contatos"
-        link="https://lista-de-contatos-one.vercel.app/"
-        githubLink="https://github.com/KarineGawlik/lista-de-contatos"
       />
       <Projeto
         imagem={motors}
