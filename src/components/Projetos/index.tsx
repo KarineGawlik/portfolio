@@ -13,7 +13,7 @@ import calculadora from '../../imagens/calculadoraMedias.png'
 import sorteador from '../../imagens/sorteador.png'
 import lista from '../../imagens/toDo.png'
 import motors from '../../imagens/motors.png'
-import restaurante from '../../imagens/restaurante.png'
+import patas from '../../imagens/patas&cia.png'
 
 import { Lista } from '../../containers/Projetos/styles'
 import { Container } from '../../styles'
@@ -41,10 +41,10 @@ const Projetos = () => (
         githubLink="https://github.com/KarineGawlik/filmandoavida"
       />
       <Projeto
-        imagem={restaurante}
+        imagem={patas}
         titulo="Restaurante"
-        link="https://restaurante-red.vercel.app/"
-        githubLink="https://github.com/KarineGawlik/Restaurante/tree/main"
+        link="https://patas-cia.vercel.app/"
+        githubLink="https://github.com/KarineGawlik/Patas-Cia"
       />
       <Projeto
         imagem={labImpressoes}
