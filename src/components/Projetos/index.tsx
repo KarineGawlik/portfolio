@@ -42,7 +42,7 @@ const Projetos = () => (
       />
       <Projeto
         imagem={patas}
-        titulo="Restaurante"
+        titulo="Patas & CIA"
         link="https://patas-cia.vercel.app/"
         githubLink="https://github.com/KarineGawlik/Patas-Cia"
       />
