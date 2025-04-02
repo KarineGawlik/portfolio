@@ -14,6 +14,8 @@ import sorteador from '../../imagens/sorteador.png'
 import lista from '../../imagens/toDo.png'
 import motors from '../../imagens/motors.png'
 import patas from '../../imagens/patas&cia.png'
+import editor from '../../imagens/landing-page-maycon-oliveira.png'
+
 
 import { Lista } from '../../containers/Projetos/styles'
 import { Container } from '../../styles'
@@ -28,6 +30,12 @@ interface ProjetoProps {
 const Projetos = () => (
   <Container>
     <Lista>
+    <Projeto
+        imagem={editor}
+        titulo="Maycon Oliveira - Edição de Vídeos"
+        link="https://impulso-digital-ye1v.vercel.app/"
+        githubLink="https://github.com/KarineGawlik/impulsoDigital"
+      />
       <Projeto
         imagem={disneyPlus}
         titulo="Projeto de Estudo Clone Disney"
