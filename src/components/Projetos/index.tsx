@@ -6,15 +6,14 @@ import disneyPlus from '../../imagens/disneyPlus.png'
 import labImpressoes from '../../imagens/labImpressoes.png'
 import lucilleAquitetura from '../../imagens/lucilleAquitetura.png'
 import tech from '../../imagens/tech.png'
-import aniversario from '../../imagens/aniversario.png'
 import filmandoAVida from '../../imagens/filmandoAVida.png'
 import croche from '../../imagens/croche.png'
 import calculadora from '../../imagens/calculadoraMedias.png'
 import sorteador from '../../imagens/sorteador.png'
-import lista from '../../imagens/toDo.png'
 import motors from '../../imagens/motors.png'
 import patas from '../../imagens/patas&cia.png'
 import editor from '../../imagens/landing-page-maycon-oliveira.png'
+import eplay from '../../imagens/eplay.png'
 
 
 import { Lista } from '../../containers/Projetos/styles'
@@ -30,6 +29,12 @@ interface ProjetoProps {
 const Projetos = () => (
   <Container>
     <Lista>
+    <Projeto
+        imagem={eplay}
+        titulo="E-commerce eplay"
+        link="https://e-play-games-phi.vercel.app/"
+        githubLink="https://github.com/KarineGawlik/ePlayGames"
+      />
     <Projeto
         imagem={editor}
         titulo="Maycon Oliveira - Edição de Vídeos"
@@ -79,12 +84,6 @@ const Projetos = () => (
         githubLink="https://github.com/KarineGawlik/ebac_tech_talks"
       />
       <Projeto
-        imagem={aniversario}
-        titulo="Landing Page Evento Aniversário"
-        link="https://landing-page-aniversario-c18b.vercel.app/"
-        githubLink="https://github.com/KarineGawlik/landing_page_aniversario"
-      />
-      <Projeto
         imagem={calculadora}
         titulo="Calculadora de médias"
         link="https://avaliador-de-notas.vercel.app/"
@@ -97,14 +96,8 @@ const Projetos = () => (
         githubLink="https://github.com/KarineGawlik/sorteador_grunt"
       />
       <Projeto
-        imagem={lista}
-        titulo="Lista de Tarefas"
-        link="https://todo-vue-chi-cyan.vercel.app/"
-        githubLink="https://github.com/KarineGawlik/minhas-tarefas"
-      />
-      <Projeto
         imagem={motors}
-        titulo="EBAC Motors"
+        titulo="Motors - Loja de Automóveis"
         link="https://ebac-motors-psi.vercel.app/"
         githubLink="https://github.com/KarineGawlik/EbacMotors"
       />
