@@ -4,11 +4,6 @@ Personal portfolio website created to present my professional profile, projects,
 
 🔗 Live project: https://portfolio-six-weld-11.vercel.app/ 
 
-Technologies
-HTML
-CSS
-TypeScript
-Vercel
-Purpose
+Technologies: HTML, CSS, TypeScript, Vercel, Purpose
 
 
